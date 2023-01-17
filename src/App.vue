@@ -1,20 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import Reporte_DetectoreVue from './components/Reporte_Detectore.vue';
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <Reporte_DetectoreVue> </Reporte_DetectoreVue>
+  <h1>Hola mucho gusto</h1>
 </template>
 
 <style scoped>
